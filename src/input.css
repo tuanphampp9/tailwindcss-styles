@@ -38,5 +38,5 @@
 }
 
 .cs-input-subcribe {
-  @apply placeholder-coffee-50 placeholder:uppercase px-4 py-3 bg-transparent border border-coffee-50 text-white placeholder:text-xs focus:outline-none placeholder:tracking-widest w-[350px] placeholder:text-center;
+  @apply placeholder-coffee-50 placeholder:uppercase px-4 py-3 bg-transparent border border-coffee-50 text-white placeholder:text-xs focus:outline-none placeholder:tracking-widest md:w-[350px] w-full placeholder:text-center;
 }
