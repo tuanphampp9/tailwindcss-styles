@@ -568,48 +568,16 @@ video {
   bottom: 1rem;
 }
 
+.left-\[calc\(-50vw\+49\.4\%\)\]{
+  left: calc(-50vw + 49.4%);
+}
+
 .right-3{
   right: 0.75rem;
 }
 
 .top-3{
   top: 0.75rem;
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
-}
-
-.left-\[calc\(-50vw\+m-40\%\)\]{
-  left: calc(-50vw + m - 40%);
-}
-
-.left-\[calc\(-50vw\+40\%\)\]{
-  left: calc(-50vw + 40%);
-}
-
-.left-\[calc\(-50vw\+49\%\)\]{
-  left: calc(-50vw + 49%);
-}
-
-.left-\[calc\(-50vw\+49\.5\%\)\]{
-  left: calc(-50vw + 49.5%);
-}
-
-.left-0{
-  left: 0px;
-}
-
-.right-0{
-  right: 0px;
-}
-
-.left-\[calc\(-50vw\+49\.4\%\)\]{
-  left: calc(-50vw + 49.4%);
-}
-
-.m-\[-8px\]{
-  margin: -8px;
 }
 
 .mx-16{
@@ -632,9 +600,9 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mx-\[-8px\]{
-  margin-left: -8px;
-  margin-right: -8px;
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .mb-20{
@@ -693,6 +661,14 @@ video {
   height: 280px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[340px\]{
+  height: 340px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -711,10 +687,6 @@ video {
 
 .h-px{
   height: 1px;
-}
-
-.h-\[340px\]{
-  height: 340px;
 }
 
 .w-1\/2{
@@ -792,6 +764,10 @@ video {
 
 .flex-col-reverse{
   flex-direction: column-reverse;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
@@ -891,6 +867,10 @@ video {
   background-image: url('./img/feature_mug2.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/lifestyle-01\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-01.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/magazine-01\.jpg\'\)\]{
   background-image: url('./img/magazine-01.jpg');
 }
@@ -903,16 +883,20 @@ video {
   background-image: url('./img/magazine-03.jpg');
 }
 
-.bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\]{
-  background-image: url('./img/parallax.jpg');
+.bg-\[url\(\'\.\/img\/paralax\.jpg\'\)\]{
+  background-image: url('./img/paralax.jpg');
 }
 
 .bg-\[url\(\'\.\/img\/slide_bg\.jpg\'\)\]{
   background-image: url('./img/slide_bg.jpg');
 }
 
-.bg-\[url\(\'\.\/img\/paralax\.jpg\'\)\]{
-  background-image: url('./img/paralax.jpg');
+.bg-\[url\(\'\.\/img\/lifestyle-02\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-03\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-03.jpg');
 }
 
 .bg-cover{
@@ -1059,6 +1043,16 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-coffee-50{
+  --tw-text-opacity: 1;
+  color: rgb(232 214 208 / var(--tw-text-opacity));
+}
+
+.text-coffee-200{
+  --tw-text-opacity: 1;
+  color: rgb(200 159 148 / var(--tw-text-opacity));
 }
 
 .line-through{
@@ -1317,6 +1311,10 @@ video {
 
   .md\:flex-1{
     flex: 1 1 0%;
+  }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row{
