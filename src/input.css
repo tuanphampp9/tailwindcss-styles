@@ -36,3 +36,7 @@
 .cs-button {
   @apply text-center left-1/2 -translate-x-1/2 tracking-wider py-4 px-6 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
 }
+
+.cs-input-subcribe {
+  @apply placeholder-coffee-50 placeholder:uppercase px-4 py-3 bg-transparent border border-coffee-50 text-white placeholder:text-xs focus:outline-none placeholder:tracking-widest w-[350px] placeholder:text-center;
+}
